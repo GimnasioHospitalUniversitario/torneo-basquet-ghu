@@ -1,0 +1,3385 @@
+      <!-- ============ RESULTADOS ============ -->
+      <section id="resultados" class="my-5">
+        <h2>Resultados</h2>
+        <div class="accordion mt-3" id="acordeonResultados">
+          <!-- Jornada 1 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#jornada1">
+                Jornada 1
+              </button>
+            </h3>
+            <div id="jornada1" class="accordion-collapse collapse show" data-bs-parent="#acordeonResultados">
+              <div class="accordion-body">
+                <div class="row g-3">
+                  <!-- GrupoA -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="grupo-a">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-verde">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="grupo-a">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-verde">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-cancelado">Cancelado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">20</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">0</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- GrupoB -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="grupo-b">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-verde">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- GrupoC -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="grupo-c">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-verde">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- SabatinaA -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="sabatina-a">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-azul">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- SabatinaB -->
+                  <div class="col-12 col-md-6" data-rama="varonil" data-categoria="sabatina-b">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-azul">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- Sabatina40 -->
+                    <div class="col-12 col-md-6" data-rama="varonil" data-categoria="40mas">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-azul">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- FemenilB -->
+                  <div class="col-12 col-md-6" data-rama="femenil" data-categoria="femenil-b">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-naranja">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- 3eraFemenil -->
+                  <div class="col-12 col-md-6" data-rama="femenil" data-categoria="3ra-femenil">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-naranja">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                  <!-- 2daFemenil -->
+                  <div class="col-12 col-md-6" data-rama="femenil" data-categoria="2da-femenil">
+                    <div class="card bg-dark text-white acento-verde">
+                      <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="badge badge-naranja">Jornada 1 · Grupo A</span>
+                          <span class="badge badge-estado-finalizado">Finalizado</span>
+                        </div>
+
+                        <div class="row text-center align-items-center">
+                          <div class="col-5 marcador-ganador">
+                            <img src="img/equipos/defaul.png" alt="Águilas" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Águilas</div>
+                            <div class="fs-1 fw-bold">58</div>
+                          </div>
+
+                            <div class="col-2 text-white text">VS</div>
+
+                          <div class="col-5 marcador-perdedor">
+                            <img src="img/equipos/defaul.png" alt="Halcones" width="40" height="40"
+                              class="rounded-circle mb-1">
+                            <div class="fw-bold">Halcones</div>
+                            <div class="fs-1 fw-bold">52</div>
+                          </div>
+                        </div>
+
+                        <div class="text-center text-white small mt-3">15 ago · 20:00</div>
+
+                      </div>
+                    </div>
+                  </div><!-- MasResultados -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- ============ CALENDARIO ============ -->
+<section id="calendario" class="my-5">
+  <h2>Calendario</h2>
+
+  <div class="accordion mt-3" id="acordeonCalendario">
+
+    <!-- Jornada 1 -->
+    <div class="accordion-item">
+      <h3 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#calJornada1">
+          Jornada 1
+        </button>
+      </h3>
+      <div id="calJornada1" class="accordion-collapse collapse show" data-bs-parent="#acordeonCalendario">
+        <div class="accordion-body">
+          <div class="table-responsive">
+            <table class="table align-middle text-center border">
+              <thead>
+                <tr>
+                  <th class="bg-dark text-white">HORA</th>
+                  <th colspan="3" class="bg-dark text-white">Partidos</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">LUNES 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">20:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">21:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      FAKERS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      JAIBAS
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">22:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      BKNS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      REGIOS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">MARTES 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">MIÉRCOLES 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">JUEVES 20 DE AGOSTO 2026</th>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">VIERNES 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">19:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">20:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">21:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">22:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      Leones
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="28" height="28" class="rounded-circle">
+                      Krisma Jazz
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 20 DE AGOSTO 2026</th>
+                <tr data-rama="varonil" data-categoria="sabatina-a">
+                  <td class="fw-bold acento-azul">10:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-a">
+                  <td class="fw-bold acento-azul">11:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-a">
+                  <td class="fw-bold acento-azul">12:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-a">
+                  <td class="fw-bold acento-azul">13:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-b">
+                  <td class="fw-bold acento-azul">14:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-b">
+                  <td class="fw-bold acento-azul">15:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-b">
+                  <td class="fw-bold acento-azul">16:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="40mas">
+                  <td class="fw-bold acento-azul">18:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="40mas">
+                  <td class="fw-bold acento-azul">19:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="40mas">
+                  <td class="fw-bold acento-azul">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+                <tr data-rama="varonil" data-categoria="40mas">
+                  <td class="fw-bold acento-azul">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">DOMINGO 20 DE AGOSTO 2026</th>
+                </tr>
+                <tr data-rama="femenil" data-categoria="femenil-b">
+                  <td class="fw-bold acento-naranja">18:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      Lobas
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      Panteras
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="femenil" data-categoria="2da-femenil">
+                  <td class="fw-bold acento-naranja">18:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      Lobas
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      Panteras
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="femenil" data-categoria="3ra-femenil">
+                  <td class="fw-bold acento-naranja">18:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      Lobas
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      Panteras
+                    </div>
+                  </td>
+                </tr>
+                <!-- MasPartidos -->
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ POSICIONES ============ -->
+<section id="posiciones" class="my-5">
+  <h2>Posiciones</h2>
+
+  <div class="table-responsive mt-3">
+    <table class="table align-middle text-center border">
+      <thead>
+        <tr>
+          <th class="bg-dark text-white">#</th>
+          <th class="bg-dark text-white text-start">Equipo</th>
+          <th class="bg-dark text-white">PTS</th>
+          <th class="bg-dark text-white">JJ</th>
+          <th class="bg-dark text-white">JG</th>
+          <th class="bg-dark text-white">JP</th>
+          <th class="bg-dark text-white">PF</th>
+          <th class="bg-dark text-white">PC</th>
+          <th class="bg-dark text-white">DIF</th>
+          <th class="bg-dark text-white">AVG</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ============ GRUPO A ============ -->
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-verde">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-a">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ GRUPO B ============ -->
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-verde">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-b">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ GRUPO C ============ -->
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-verde">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="grupo-c">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ SABATINA A ============ -->
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-azul">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-a">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ SABATINA B ============ -->
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-azul">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="sabatina-b">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ 40+ ============ -->
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-azul">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="varonil" data-categoria="40mas">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ FEMENIL B ============ -->
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-naranja">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="femenil-b">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ 3ERA FEMENIL ============ -->
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="3ra-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+        <!-- ============ 2DA FEMENIL ============ -->
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">02</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">03</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">04</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">05</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">06</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">07</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-naranja">08</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">09</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr data-rama="femenil" data-categoria="2da-femenil">
+          <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
+          <td class="text-start fw-bold">
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+              Leones
+            </div>
+          </td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+
+      </tbody>
+      <tfoot class="table-light border-top border-2">
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="small text-muted py-2">PTS: Puntos</td>
+          <td class="small text-muted py-2">JJ: Jugados</td>
+          <td class="small text-muted py-2">JG: Ganados</td>
+          <td class="small text-muted py-2">JP: Perdidos</td>
+          <td class="small text-muted py-2">PF: A favor</td>
+          <td class="small text-muted py-2">PC: En contra</td>
+          <td class="small text-muted py-2">DIF: Diferencia</td>
+          <td class="small text-muted py-2">AVG: Average</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>
+
+<!-- ============ ANOTADORES ============ -->
+<section id="anotadores" class="my-5">
+  <h2>Anotadores</h2>
+
+  <div class="list-group mt-3">
+
+    <!-- ============ GRUPO A ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">1</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">2</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">3</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <!-- ============ GRUPO B ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">1</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">2</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">3</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <!-- ============ GRUPO C ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-c">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">1</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-c">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">2</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-verde" data-rama="varonil"
+      data-categoria="grupo-c">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-verde">3</span>
+        <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Juan Pérez</strong>
+          <div class="text-muted small">Leones</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-success">24 pts</span>
+    </div>
+
+    <!-- ============ SABATINA A ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">1</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">2</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-a">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">3</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <!-- ============ SABATINA B ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">1</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">2</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="sabatina-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">3</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <!-- ============ 40+ ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="40mas">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">1</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="40mas">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">2</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-azul" data-rama="varonil"
+      data-categoria="40mas">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-azul">3</span>
+        <img src="img/equipos/defaul.png" alt="Tuine Squad" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Mario Ruiz</strong>
+          <div class="text-muted small">Tuine Squad</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-azul">22 pts</span>
+    </div>
+
+    <!-- ============ FEMENIL B ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="femenil-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">1</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">120 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="femenil-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">2</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">110 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="femenil-b">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">3</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">100 pts</span>
+    </div>
+
+    <!-- ============ 3ERA FEMENIL ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="3ra-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">1</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">6 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="3ra-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">2</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">4 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="3ra-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">3</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">2 pts</span>
+    </div>
+
+    <!-- ============ 2da FEMENIL ============ -->
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="2da-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">1</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">26 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="2da-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">2</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">24 pts</span>
+    </div>
+
+    <div class="list-group-item d-flex justify-content-between align-items-center acento-naranja" data-rama="femenil"
+      data-categoria="2da-femenil">
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-naranja">3</span>
+        <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle">
+        <div>
+          <strong>Ana Torres</strong>
+          <div class="text-muted small">Lobas</div>
+        </div>
+      </div>
+      <span class="fs-4 fw-bold text-naranja">22 pts</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ CASTIGOS ============ -->
+<section id="castigos" class="my-5">
+  <h2>Castigos</h2>
+
+  <div class="list-group mt-3">
+
+    <!-- ============ GRUPO A ============ -->
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-a">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-a">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ GRUPO B ============ -->
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ GRUPO C ============ -->
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-c">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-success border-2 mb-1" data-rama="varonil" data-categoria="grupo-c">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ SABATINA A ============ -->
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil"
+      data-categoria="sabatina-a">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil"
+      data-categoria="sabatina-a">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ SABATINA B ============ -->
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil"
+      data-categoria="sabatina-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil"
+      data-categoria="sabatina-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ 40MAS ============ -->
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil" data-categoria="40mas">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-primary border-2 mb-1" data-rama="varonil" data-categoria="40mas">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+
+    <!-- ============ FEMENIL B ============ -->
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="femenil-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="femenil-b">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ 3ERA FEMENIL ============ -->
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="3ra-femenil">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="3ra-femenil">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+    <!-- ============ 2da FEMENIL ============ -->
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="2da-femenil">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+    <div class="list-group-item border-start border-warning border-2 mb-1" data-rama="femenil"
+      data-categoria="2da-femenil">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-2">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle">
+          <div>
+            <strong>Luis Gómez</strong>
+            <div class="text-muted small">Krisma Jazz</div>
+          </div>
+        </div>
+        <span class="badge bg-danger">1 partido</span>
+      </div>
+      <div class="text-muted small mt-2">Doble técnica · 15 ago</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ JUGADORES ============ -->
+<section id="jugadores" class="my-5">
+  <h2>Jugadores</h2>
+  <p class="text-muted small">Mínimo 4 partidos jugados para ser elegible en fase final.</p>
+
+  <div class="accordion mt-3" id="acordeonJugadores">
+
+    <!-- Leones -->
+    <div class="accordion-item" data-rama="varonil" data-categoria="grupo-a">
+      <h3 class="accordion-header">
+        <button class="accordion-button collapsed acento-verde" type="button" data-bs-toggle="collapse"
+          data-bs-target="#equipoLeones">
+          <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle me-2">
+          Leones
+        </button>
+      </h3>
+      <div id="equipoLeones" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group list-group-flush">
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="img/jugadores/defaul.png" alt="Juan Pérez" width="32" height="32" class="rounded-circle">
+                <span>Juan Pérez</span>
+              </div>
+              <span class="badge bg-success">5 partidos</span>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="img/jugadores/defaul.png" alt="Mario Ruiz" width="32" height="32" class="rounded-circle">
+                <span>Mario Ruiz</span>
+              </div>
+              <span class="badge bg-danger">2 partidos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Krisma Jazz -->
+    <div class="accordion-item" data-rama="varonil" data-categoria="grupo-a">
+      <h3 class="accordion-header">
+        <button class="accordion-button collapsed acento-verde" type="button" data-bs-toggle="collapse"
+          data-bs-target="#equipoKrisma">
+          <img src="img/equipos/defaul.png" alt="Krisma Jazz" width="24" height="24" class="rounded-circle me-2">
+          Krisma Jazz
+        </button>
+      </h3>
+      <div id="equipoKrisma" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group list-group-flush">
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="img/jugadores/defaul.png" alt="Luis Gómez" width="32" height="32" class="rounded-circle">
+                <span>Luis Gómez</span>
+              </div>
+              <span class="badge bg-success">6 partidos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lobas -->
+    <div class="accordion-item" data-rama="femenil" data-categoria="femenil-b">
+      <h3 class="accordion-header">
+        <button class="accordion-button collapsed acento-naranja" type="button" data-bs-toggle="collapse"
+          data-bs-target="#equipoLobas">
+          <img src="img/equipos/defaul.png" alt="Lobas" width="24" height="24" class="rounded-circle me-2">
+          Lobas
+        </button>
+      </h3>
+      <div id="equipoLobas" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group list-group-flush">
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center gap-2">
+                <img src="img/jugadores/defaul.png" alt="Ana Torres" width="32" height="32" class="rounded-circle">
+                <span>Ana Torres</span>
+              </div>
+              <span class="badge bg-success">4 partidos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MasEquipos -->
+
+  </div>
+</section>
