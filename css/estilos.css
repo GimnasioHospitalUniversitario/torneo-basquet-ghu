@@ -206,6 +206,37 @@ html {
   }
 }
 
+@media (max-width: 576px) {
+  .navbar .container {
+    flex-wrap: nowrap;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+    white-space: normal;
+  }
+  .navbar-brand img {
+    height: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  #calendario table {
+    table-layout: fixed;
+    font-size: 0.7rem;
+  }
+  #calendario th, #calendario td {
+    padding: 0.35rem 0.2rem;
+  }
+  #calendario img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  #calendario td .d-flex {
+    flex-direction: column;
+    gap: 2px !important;
+  }
+}
+
 .badge-estado-proximo {
   background-color: #18344d;
   color: #8dccff;
