@@ -207,7 +207,7 @@ html {
 }
 
 @media (max-width: 576px) {
-  .navbar .container {
+  .fila-navbar-superior {
     flex-wrap: nowrap;
   }
   .navbar-brand {
