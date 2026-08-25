@@ -1,3 +1,23 @@
+/* =========================
+   PALETA PRINCIPAL
+   ========================= */
+
+:root {
+  --color-fondo: #f5f7fa;
+  --color-navbar: #111827;
+  --color-tarjeta: #212529;
+
+  --color-verde: #2f7a4f;
+  --color-verde-claro: #72e0a0;
+
+  --color-azul: #2f6fa8;
+  --color-naranja: #e86a33;
+}
+
+body {
+  background-color: #f5f7fa;
+}
+
 .badge-verde {
   background-color: #2f7a4f;
   color: #fff;
@@ -19,8 +39,115 @@
 }
 
 .separador-dia th {
-  background-color: #34495e;
+  background-color: #111827;
   color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.85rem 1rem;
+  border-left: 4px solid #2f7a4f;
+}
+#calendario .table thead th {
+  background-color: #212529 !important;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.85rem;
+}
+
+#calendario .table tbody tr:not(.separador-dia) {
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+#calendario .table tbody tr:not(.separador-dia):hover {
+  background-color: #f0f7f3;
+}
+#calendario .table td:first-child {
+  color: #2f7a4f;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+#calendario img {
+  object-fit: cover;
+  background-color: #f5f7fa;
+  border: 1px solid #e5e7eb;
+}
+#calendario .table {
+  margin-bottom: 0;
+  border-color: #e5e7eb;
+}
+
+#calendario .table td {
+  padding: 0.85rem 0.75rem;
+  vertical-align: middle;
+}
+
+#acordeonCalendario .accordion-button {
+  background-color: #212529;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  box-shadow: none;
+}
+
+#acordeonCalendario .accordion-button:not(.collapsed) {
+  background-color: #212529;
+  color: #72e0a0;
+}
+
+/* =========================
+   ACORDEONES
+   ========================= */
+
+.accordion {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-button {
+  background-color: #212529;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: none !important;
+  padding: 1rem 1.1rem;
+  transition: all 0.2s ease;
+}
+
+.accordion-button:hover {
+  background-color: #2a2f35;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #212529;
+  color: #72e0a0;
+  border-bottom: 3px solid #2f7a4f;
+}
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: none;
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 1.25rem;
 }
 
 .text-azul {
@@ -79,30 +206,47 @@ html {
   }
 }
 
+.badge-estado-proximo {
+  background-color: #18344d;
+  color: #8dccff;
+  border: 1px solid #2f6fa8;
+}
+
 .badge-estado-finalizado {
-  background-color: greenyellow;
-  color: black;
+  background-color: #163d2a;
+  color: #72e0a0;
+  border: 1px solid #2f7a4f;
+  font-weight: 600;
 }
 
 .badge-estado-cancelado {
-  background-color: red;
-  color: white;
+  background-color: #4a1f24;
+  color: #ff9aa5;
+  border: 1px solid #a63d4a;
 }
 
-.marcador-ganador {
-  color: #fff;
-  opacity: 1;
+.marcador-ganador .fs-1 {
+  color: #72e0a0;
 }
 
-.marcador-perdedor {
-  color: #fff;
-  opacity: 0.5;
+.marcador-perdedor .fs-1 {
+  color: #a63d4a;
 }
+
+/*.tarjeta-resultado .col-2 {
+  color: #9ca3af !important;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}*/
 
 section>h2 {
-  color: #1b2a41;
-  font-weight: 700;
-  border-left: 6px solid #1b2a41;
+  color: #111827;
+  font-weight: 800;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+
+  border-left: 5px solid #2f7a4f;
   padding-left: 0.75rem;
   margin-bottom: 1.5rem;
 }
@@ -166,4 +310,38 @@ section>h2 {
 .filtro-categoria .cat-naranja.active {
   background: #e86a33;
   color: #fff;
+}
+
+.navbar-ghu {
+  background-color: #111827;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-ghu .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar-ghu .nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-ghu .nav-link:hover,
+.navbar-ghu .nav-link:focus {
+  color: #72e0a0;
+}
+
+.tarjeta-resultado {
+  background-color: #212529;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-resultado:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
