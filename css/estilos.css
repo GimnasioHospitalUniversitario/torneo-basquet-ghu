@@ -237,6 +237,32 @@ html {
   }
 }
 
+@media (max-width: 576px) {
+  #posiciones th:nth-child(1),
+  #posiciones td:nth-child(1) {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+    width: 50px;
+  }
+
+  #posiciones th:nth-child(2),
+  #posiciones td:nth-child(2) {
+    position: sticky;
+    left: 50px;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+  }
+
+  #posiciones thead th:nth-child(1),
+  #posiciones thead th:nth-child(2) {
+    background-color: #212529;
+    z-index: 3;
+  }
+}
+
 .badge-estado-proximo {
   background-color: #18344d;
   color: #8dccff;
