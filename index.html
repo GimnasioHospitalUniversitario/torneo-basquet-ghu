@@ -18,7 +18,8 @@
   <meta property="og:title" content="Torneo de Básquetbol GHU">
   <meta property="og:description"
     content="Resultados, calendario y posiciones del Torneo de Básquetbol GHU, Temporada Otoño 2026.">
-  <meta property="og:image" content="https:https://gimnasiohospitaluniversitario.github.io/torneo-basquet-ghu/img/hero.jpg">
+  <meta property="og:image"
+    content="https:https://gimnasiohospitaluniversitario.github.io/torneo-basquet-ghu/img/hero.jpg">
   <meta property="og:type" content="website">
 </head>
 
@@ -27,16 +28,15 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-ghu">
     <div class="container">
       <div class="d-flex align-items-center justify-content-between w-100 fila-navbar-superior">
-      <a class="navbar-brand d-flex align-items-center gap-3 mb-0 h1" href="#">
-        <img src="img/logo.png" alt="Logo de la empresa" height="40">
-        TORNEO DE BASQUETBOL
-      </a>
+        <a class="navbar-brand d-flex align-items-center gap-3 mb-0 h1" href="#">
+          <img src="img/logo.png" alt="Logo de la empresa" height="40">
+          TORNEO DE BASQUETBOL
+        </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuTorneo">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuTorneo">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-
 
       <div class="collapse navbar-collapse" id="menuTorneo">
         <ul class="navbar-nav ms-auto">
@@ -193,7 +193,7 @@
                   </div>
                 </div><!-- MasResultados -->
 
-                 <!-- GrupoC -->
+                <!-- GrupoC -->
                 <div class="col-12 col-md-6" data-rama="varonil" data-categoria="grupo-c">
                   <div class="card tarjeta-resultado text-white acento-verde">
                     <div class="card-body">
@@ -226,7 +226,7 @@
                   </div>
                 </div><!-- MasResultados -->
 
-                 <!-- SabatinaA -->
+                <!-- SabatinaA -->
                 <div class="col-12 col-md-6" data-rama="varonil" data-categoria="sabatina-a">
                   <div class="card tarjeta-resultado text-white acento-verde">
                     <div class="card-body">
@@ -432,41 +432,446 @@
     </section>
 
     <!-- ============ CALENDARIO ============ -->
-    <section id="calendario" class="my-5">
-      <h2>CALENDARIO</h2>
+<section id="calendario" class="my-5">
+  <h2>CALENDARIO</h2>
 
-      <div class="accordion mt-3" id="acordeonCalendario">
+  <div class="accordion mt-3" id="acordeonCalendario">
 
-        <!-- Jornada 1 -->
-        <div class="accordion-item">
-          <h3 class="accordion-header"><!-- CAMBIAR JORNADA -->
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#calJornada1">
-              Jornada 1
-            </button>
-          </h3> <!-- OCULTAR SHOW -->
-          <div id="calJornada1" class="accordion-collapse collapse show" data-bs-parent="#acordeonCalendario">
-            <div class="accordion-body">
-              <div class="table-responsive">
-                <table class="table align-middle text-center border">
-                  <thead>
-                    <tr>
-                      <th class="bg-dark text-white">HORA</th>
-                      <th colspan="3" class="bg-dark text-white">Partidos</th>
-                    </tr>
-                  </thead>
-                  <tbody>
+    <!-- Jornada 1 -->
+    <div class="accordion-item">
+      <h3 class="accordion-header"><!-- CAMBIAR JORNADA -->
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#calJornada1">
+          Jornada 1
+        </button>
+      </h3> <!-- OCULTAR SHOW -->
+      <div id="calJornada1" class="accordion-collapse collapse show" data-bs-parent="#acordeonCalendario">
+        <div class="accordion-body">
+          <div class="table-responsive">
+            <table class="table align-middle text-center border">
+              <thead>
+                <tr>
+                  <th class="bg-dark text-white">HORA</th>
+                  <th colspan="3" class="bg-dark text-white">Partidos</th>
+                </tr>
+              </thead>
+              <tbody>
 
-                    <!-- MasPartidos -->
+                <tr class="separador-dia"><!-- CAMBIAR DÍA -->
+                  <th colspan="4" class="text-start ps-3">LUNES 31 DE AGOSTO 2026</th>
+                </tr>
 
-                  </tbody>
-                </table>
-              </div>
-            </div>
+                <tr data-rama="varonil" data-categoria="grupo-b"><!-- CAMBIAR HORA -->
+                  <td class="fw-bold acento-verde">21:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/wildpigs.png" alt="WildPigs" width="28" height="28" class="rounded-circle">
+                      WILD PIGS <!-- CAMBIAR EQUIPOS LOGOS-->
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/guerrerucs.png" alt="Guerrerucs" width="28" height="28"
+                        class="rounded-circle">
+                      GUERRERCUS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">22:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/titanes.png" alt="Titanes" width="28" height="28" class="rounded-circle">
+                      TITANES
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/mexakings.png" alt="Mexa Kings" width="28" height="28"
+                        class="rounded-circle">
+                      MEXA KINGS
+                    </div>
+                  </td>
+                </tr>
+
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">MARTES 1 DE SEPTIEMBRE 2026</th>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/benchwarmer.png" alt="Benchwarmer" width="28" height="28"
+                        class="rounded-circle">
+                      BENCHWARMER
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Cañeros mante" width="28" height="28"
+                        class="rounded-circle">
+                      CAÑEROS MANTE
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/halcones.png" alt="Halcones" width="28" height="28" class="rounded-circle">
+                      HALCONES
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Regios" width="28" height="28" class="rounded-circle">
+                      REGIOS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-b">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tune squad" width="28" height="28" class="rounded-circle">
+                      TUNE SQUAD
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/topdawgs.png" alt="Top dawgs" width="28" height="28" class="rounded-circle">
+                      TOP DAWGS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">MIÉRCOLES 2 DE SEPTIEMBRE 2026</th>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Leones jahir" width="28" height="28"
+                        class="rounded-circle">
+                      LEONES JAHIR
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/nwa.png" alt="N W A" width="28" height="28" class="rounded-circle">
+                      N. W. A.
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Survivors" width="28" height="28" class="rounded-circle">
+                      SURVIVORS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Arremangados" width="28" height="28"
+                        class="rounded-circle">
+                      ARREMANGADOS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">JUEVES 3 DE SEPTIEMBRE 2026</th>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">20:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/ballers.png" alt="Ballers" width="28" height="28" class="rounded-circle">
+                      BALLERS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Broterhood" width="28" height="28"
+                        class="rounded-circle">
+                      BROTERHOOD
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">21:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/irbis.png" alt="Irbis" width="28" height="28" class="rounded-circle">
+                      IRBIS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/chepevera.png" alt="Chepevera" width="28" height="28"
+                        class="rounded-circle">
+                      CHEPEVERA
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-a">
+                  <td class="fw-bold acento-verde">22:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Monster dogs" width="28" height="28"
+                        class="rounded-circle">
+                      MONSTER DOGS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Sonics" width="28" height="28" class="rounded-circle">
+                      SONICS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">LUNES 31 DE AGOSTO 2026</th>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">19:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/gorilas.png" alt="Gorilas" width="28" height="28" class="rounded-circle">
+                      GORILAS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/fakers.png" alt="Fakers" width="28" height="28" class="rounded-circle">
+                      FAKERS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">20:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Caps" width="28" height="28" class="rounded-circle">
+                      C. A. P. S.
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lo extraterrestre" width="28" height="28" class="rounded-circle">
+                      LO´EXTRATERESTRE
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">VIERNES 4 DE AGOSTO 2026</th>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">19:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Krisma jazz" width="28" height="28" class="rounded-circle">
+                      KRISMA JAZZ
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/grizllies.png" alt="Grizllies" width="28" height="28" class="rounded-circle">
+                      GRIZLLIES
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">20:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/titans.png" alt="Titans" width="28" height="28" class="rounded-circle">
+                      TITANS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of stock" width="28" height="28" class="rounded-circle">
+                      OUT OF STOCK
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">21:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/sntss.png" alt="Sntss sec2" width="28" height="28" class="rounded-circle">
+                      SNTSS SEC 2
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/leones.png" alt="Leones" width="28" height="28" class="rounded-circle">
+                      LEONES
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="varonil" data-categoria="grupo-c">
+                  <td class="fw-bold acento-verde">22:30</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/comebacks.png" alt="Comebacks" width="28" height="28" class="rounded-circle">
+                      COMEBACKS
+                    </div>
+                  </td>
+                  <td><span class="badge badge-verde">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/vikingbulls.png" alt="Viking bulls" width="28" height="28" class="rounded-circle">
+                      VIKING BULLS
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 5 DE SEPTIEMBRE 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-a">
+                  <td class="fw-bold acento-azul">10:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 5 DE SEPTIEMBRE 2026</th>
+                </tr>
+                <tr data-rama="varonil" data-categoria="sabatina-b">
+                  <td class="fw-bold acento-azul">14:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Tuine Squad" width="28" height="28" class="rounded-circle">
+                      Tuine Squad
+                    </div>
+                  </td>
+                  <td><span class="badge badge-azul">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Out of Stock" width="28" height="28"
+                        class="rounded-circle">
+                      Out of Stock
+                    </div>
+                  </td>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">SÁBADO 5 DE SEPTIEMBRE 2026</th>
+                </tr>
+
+                <tr class="separador-dia">
+                  <th colspan="4" class="text-start ps-3">DOMINGO</th>
+                </tr>
+                <tr data-rama="femenil" data-categoria="femenil-b">
+                  <td class="fw-bold acento-naranja">18:00</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="femenil" data-categoria="2da-femenil">
+                  <td class="fw-bold acento-naranja">-:-</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                </tr>
+
+                <tr data-rama="femenil" data-categoria="3ra-femenil">
+                  <td class="fw-bold acento-naranja">-:-</td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Lobas" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                  <td><span class="badge badge-naranja">VS</span></td>
+                  <td class="fw-bold">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                      <img src="img/equipos/defaul.png" alt="Panteras" width="28" height="28" class="rounded-circle">
+                      -
+                    </div>
+                  </td>
+                </tr>
+                <!-- MasPartidos -->
+
+              </tbody>
+            </table>
           </div>
         </div>
-
       </div>
-    </section>
+    </div>
+
+  </div>
+</section>
 
     <!-- ============ POSICIONES ============ -->
     <section id="posiciones" class="my-5">
@@ -683,7 +1088,7 @@
               <td class="acento-verde"><span class="badge badge-verde">01</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/titanes.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   TITANES
                 </div>
               </td>
@@ -700,7 +1105,7 @@
               <td class="acento-verde"><span class="badge badge-verde">02</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/halcones.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   HALCONES
                 </div>
               </td>
@@ -734,7 +1139,7 @@
               <td class="acento-verde"><span class="badge badge-verde">04</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/benchwarmer.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   BENCHWARMER
                 </div>
               </td>
@@ -751,7 +1156,7 @@
               <td class="acento-verde"><span class="badge badge-verde">05</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/wildpigs.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   WILD PIGS
                 </div>
               </td>
@@ -768,7 +1173,7 @@
               <td class="acento-verde"><span class="badge badge-verde">06</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/guerrerucs.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   GUERRERUCS
                 </div>
               </td>
@@ -802,7 +1207,7 @@
               <td class="acento-verde"><span class="badge badge-verde">08</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/topdawgs.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   TOP DAWGS
                 </div>
               </td>
@@ -836,7 +1241,7 @@
               <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/mexakings.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   MEXA KINGS
                 </div>
               </td>
@@ -853,8 +1258,8 @@
               <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
-                  -
+                  <img src="img/equipos/raptors.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  RAPTORS
                 </div>
               </td>
               <td>-</td>
@@ -872,7 +1277,7 @@
               <td class="acento-verde"><span class="badge badge-verde">01</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/comebacks.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   COMEBACKS
                 </div>
               </td>
@@ -889,7 +1294,7 @@
               <td class="acento-verde"><span class="badge badge-verde">02</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/gorilas.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   GORILAS
                 </div>
               </td>
@@ -907,7 +1312,7 @@
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
                   <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
-                  DAVID
+                  C.A.P.S
                 </div>
               </td>
               <td>-</td>
@@ -923,7 +1328,7 @@
               <td class="acento-verde"><span class="badge badge-verde">04</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/titans.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   TITANS
                 </div>
               </td>
@@ -957,7 +1362,7 @@
               <td class="acento-verde"><span class="badge badge-verde">06</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/sntss.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   SNTSS SEC 2
                 </div>
               </td>
@@ -974,7 +1379,7 @@
               <td class="acento-verde"><span class="badge badge-verde">07</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/leones.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   LEONES
                 </div>
               </td>
@@ -991,7 +1396,7 @@
               <td class="acento-verde"><span class="badge badge-verde">08</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/grizllies.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   GRIZLLIES
                 </div>
               </td>
@@ -1025,7 +1430,7 @@
               <td class="acento-verde"><span class="badge badge-rojo">10</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/vikingbulls.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   VIKING BULLS
                 </div>
               </td>
@@ -1042,7 +1447,7 @@
               <td class="acento-verde"><span class="badge badge-rojo">11</span></td>
               <td class="text-start fw-bold">
                 <div class="d-flex align-items-center gap-2">
-                  <img src="img/equipos/defaul.png" alt="Leones" width="24" height="24" class="rounded-circle">
+                  <img src="img/equipos/fakers.png" alt="Leones" width="24" height="24" class="rounded-circle">
                   FAKERS
                 </div>
               </td>
@@ -1434,7 +1839,7 @@
               <td>-</td>
             </tr>
 
-                        <!-- ============ 40+ ============ -->
+            <!-- ============ 40+ ============ -->
             <tr data-rama="varonil" data-categoria="40mas">
               <td class="acento-verde"><span class="badge badge-azul">01</span></td>
               <td class="text-start fw-bold">
@@ -1622,7 +2027,7 @@
               <td>-</td>
               <td>-</td>
             </tr>
-                        <!-- ============ FEMENIL B ============ -->
+            <!-- ============ FEMENIL B ============ -->
             <tr data-rama="femenil" data-categoria="femenil-b">
               <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
               <td class="text-start fw-bold">
@@ -1811,7 +2216,7 @@
               <td>-</td>
             </tr>
 
-                        <!-- ============ 3era FEMENIL ============ -->
+            <!-- ============ 3era FEMENIL ============ -->
             <tr data-rama="femenil" data-categoria="3ra-femenil">
               <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
               <td class="text-start fw-bold">
@@ -2000,7 +2405,7 @@
               <td>-</td>
             </tr>
 
-                        <!-- ============ 2da FEMENIL ============ -->
+            <!-- ============ 2da FEMENIL ============ -->
             <tr data-rama="femenil" data-categoria="2da-femenil">
               <td class="acento-verde"><span class="badge badge-naranja">01</span></td>
               <td class="text-start fw-bold">
@@ -2948,44 +3353,107 @@
     <!-- ============ REGLAMENTOS ============ -->
     <section id="reglamentos" class="my-5">
       <h2>REGLAMENTOS</h2>
+      <p class="text-muted small">Resumen. El reglamento completo se entrega impreso a cada equipo.</p>
 
       <div class="accordion mt-3" id="acordeonReglamentos">
 
+        <!-- General - sin filtro -->
         <div class="accordion-item">
           <h3 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#regla1">
-              ---
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#reglaGeneral">
+              General
             </button>
           </h3>
-          <div id="regla1" class="accordion-collapse collapse show" data-bs-parent="#acordeonReglamentos">
+          <div id="reglaGeneral" class="accordion-collapse collapse show" data-bs-parent="#acordeonReglamentos">
             <div class="accordion-body">
-              ---
+              Costos: inscripción $3,000, arbitraje $380 por partido.<br>
+              Antes de iniciar: cubrir el 50% del torneo y fianza arbitral de 2 partidos.<br>
+              Se rige por las Reglas Oficiales FIBA vigentes, complementadas por este Reglamento Particular.
             </div>
           </div>
         </div>
 
+        <!-- Competencia - sin filtro -->
         <div class="accordion-item">
           <h3 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regla2">
-              ---
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#reglaCompetencia">
+              Competencia
             </button>
           </h3>
-          <div id="regla2" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
+          <div id="reglaCompetencia" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
             <div class="accordion-body">
-              ---
+              Desempate: 1) diferencia general de puntos, 2) resultado entre sí, 3) el Comité Organizador define de
+              persistir.<br>
+              4 cuartos de 10 min (descansos 1-3-1 min, extra time 5 min). Reloj corrido, cronometraje completo en los
+              últimos 5 min del 4º cuarto (y en semifinal/final).
             </div>
           </div>
         </div>
 
-        <div class="accordion-item">
+        <!-- Específico Grupo A -->
+        <div class="accordion-item" data-rama="varonil" data-categoria="grupo-a">
           <h3 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regla3">
-              ---
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#reglaGrupoA">
+              Reglamento deportivo · Grupo A
             </button>
           </h3>
-          <div id="regla3" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
+          <div id="reglaGrupoA" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
             <div class="accordion-body">
-              ---
+              Horarios: miércoles y jueves, 20:00 / 21:00 / 22:00 hrs.<br>
+              Elegibilidad: sin participación en liga profesional, semiprofesional o Liga Mayor estudiantil en los
+              últimos 4 años, ni jugadores activos de 1ª o 2ª fuerza estatal.
+            </div>
+          </div>
+        </div>
+
+        <!-- Específico Grupo B -->
+        <div class="accordion-item" data-rama="varonil" data-categoria="grupo-b">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#reglaGrupoB">
+              Reglamento deportivo · Grupo B
+            </button>
+          </h3>
+          <div id="reglaGrupoB" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
+            <div class="accordion-body">
+              Horarios: lunes 20:30 / 21:30 / 22:30 hrs. Martes 20:00 / 21:00 / 22:00 hrs.<br>
+              Elegibilidad: sin participación en liga profesional, semiprofesional o Liga Mayor estudiantil en los
+              últimos 7 años, ni jugadores activos de 1ª o 2ª fuerza estatal.
+            </div>
+          </div>
+        </div>
+
+        <!-- Específico Grupo C -->
+        <div class="accordion-item" data-rama="varonil" data-categoria="grupo-c">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#reglaGrupoC">
+              Reglamento deportivo · Grupo C
+            </button>
+          </h3>
+          <div id="reglaGrupoC" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
+            <div class="accordion-body">
+              Horarios: lunes 19:30 hrs. Viernes 19:30 / 20:30 / 21:30 / 22:30 hrs.<br>
+              Elegibilidad: sin participación en liga profesional, semiprofesional o Liga Mayor estudiantil en los
+              últimos 10 años, ni jugadores activos de 1ª o 2ª fuerza estatal.
+            </div>
+          </div>
+        </div>
+
+        <!-- Específico 40+ -->
+        <div class="accordion-item" data-rama="varonil" data-categoria="40mas">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#regla40mas">
+              Reglamento deportivo · 40+
+            </button>
+          </h3>
+          <div id="regla40mas" class="accordion-collapse collapse" data-bs-parent="#acordeonReglamentos">
+            <div class="accordion-body">
+              Horarios: sábado, 10:00 hrs.<br>
+              4 cuartos de 8 min, reloj corrido.
             </div>
           </div>
         </div>
