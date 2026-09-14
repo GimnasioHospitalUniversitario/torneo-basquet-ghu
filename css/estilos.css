@@ -276,6 +276,13 @@ html {
   font-weight: 600;
 }
 
+.badge-estado-finalizado-sabados {
+  background-color: #162d4a;
+  color: #72b7ff;
+  border: 1px solid #2f5f8a;
+  font-weight: 600;
+}
+
 .badge-estado-cancelado {
   background-color: #4a1f24;
   color: #ff9aa5;
