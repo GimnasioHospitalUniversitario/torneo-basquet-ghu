@@ -38,66 +38,6 @@ body {
   color: #fff;
 }
 
-.separador-dia th {
-  background-color: #111827;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  padding: 0.85rem 1rem;
-  border-left: 4px solid #2f7a4f;
-}
-#calendario .table thead th {
-  background-color: #212529 !important;
-  color: #fff;
-  border: none;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 0.85rem;
-}
-
-#calendario .table tbody tr:not(.separador-dia) {
-  background-color: #fff;
-  transition: background-color 0.2s ease;
-}
-
-#calendario .table tbody tr:not(.separador-dia):hover {
-  background-color: #f0f7f3;
-}
-#calendario .table td:first-child {
-  color: #2f7a4f;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-#calendario img {
-  object-fit: cover;
-  background-color: #f5f7fa;
-  border: 1px solid #e5e7eb;
-}
-#calendario .table {
-  margin-bottom: 0;
-  border-color: #e5e7eb;
-}
-
-#calendario .table td {
-  padding: 0.85rem 0.75rem;
-  vertical-align: middle;
-}
-
-#acordeonCalendario .accordion-button {
-  background-color: #212529;
-  color: #fff;
-  font-weight: 700;
-  border: none;
-  box-shadow: none;
-}
-
-#acordeonCalendario .accordion-button:not(.collapsed) {
-  background-color: #212529;
-  color: #72e0a0;
-}
-
 /* =========================
    ACORDEONES
    ========================= */
@@ -276,13 +216,6 @@ html {
   font-weight: 600;
 }
 
-.badge-estado-finalizado-sabados {
-  background-color: #162d4a;
-  color: #72b7ff;
-  border: 1px solid #2f5f8a;
-  font-weight: 600;
-}
-
 .badge-estado-cancelado {
   background-color: #4a1f24;
   color: #ff9aa5;
@@ -296,13 +229,6 @@ html {
 .marcador-perdedor .fs-1 {
   color: #a63d4a;
 }
-
-/*.tarjeta-resultado .col-2 {
-  color: #9ca3af !important;
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-}*/
 
 section>h2 {
   color: #111827;
@@ -408,4 +334,616 @@ section>h2 {
 .tarjeta-resultado:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* ==========================================
+   JUGADORES
+   ========================================== */
+
+#acordeonJugadores .list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 10px;
+}
+
+/* Contenedor foto + información */
+#acordeonJugadores .list-group-item > div {
+  display: flex;
+  align-items: center;
+  gap: 14px !important;
+  min-width: 0;
+}
+
+/* Foto del jugador */
+#acordeonJugadores .list-group-item img {
+  width: 58px !important;
+  height: 58px !important;
+  min-width: 58px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Información jugador */
+#acordeonJugadores .list-group-item > div > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Número */
+#acordeonJugadores .list-group-item > div > span strong {
+  display: block;
+  color: #6c757d;
+  font-size: 0.78rem;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+/* Badge partidos */
+#acordeonJugadores .list-group-item > .badge {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 0.78rem;
+  padding: 0.45rem 0.65rem;
+}
+
+
+/* ==========================================
+   LOGO DEL EQUIPO
+   ========================================== */
+
+#acordeonJugadores .accordion-button img {
+  width: 48px !important;
+  height: 48px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+
+/* ==========================================
+   MÓVIL
+   ========================================== */
+
+@media (max-width: 575.98px) {
+
+  #acordeonJugadores .list-group-item {
+    gap: 10px;
+    padding: 10px 6px;
+  }
+
+  #acordeonJugadores .list-group-item img {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px;
+  }
+
+  #acordeonJugadores .list-group-item > div {
+    gap: 11px !important;
+  }
+
+  #acordeonJugadores .list-group-item > div > span {
+    font-size: 0.9rem;
+  }
+
+  #acordeonJugadores .list-group-item > div > span strong {
+    font-size: 0.72rem;
+  }
+
+  #acordeonJugadores .list-group-item > .badge {
+    font-size: 0.7rem;
+  }
+
+  #acordeonJugadores .accordion-button img {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+
+/* ==========================================
+   ANOTADORES
+   ========================================== */
+
+#anotadores .list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 10px;
+}
+
+/* CONTENIDO IZQUIERDO */
+#anotadores .list-group-item > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 14px !important;
+  min-width: 0;
+}
+
+/* POSICIÓN */
+#anotadores .list-group-item > div:first-child > .badge {
+  min-width: 30px;
+  text-align: center;
+  font-size: 0.78rem;
+  padding: 0.45rem 0.5rem;
+  flex-shrink: 0;
+}
+
+/* LOGO DEL EQUIPO */
+#anotadores .list-group-item img {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* INFORMACIÓN DEL JUGADOR */
+#anotadores .list-group-item > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* NOMBRE */
+#anotadores .list-group-item strong {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #212529;
+}
+
+/* EQUIPO */
+#anotadores .list-group-item .text-muted {
+  font-size: 0.78rem;
+  margin-top: 3px;
+  line-height: 1.2;
+}
+
+/* PUNTOS */
+#anotadores .list-group-item > span:last-child {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+}
+
+/* ==========================================
+   MÓVIL
+   ========================================== */
+
+@media (max-width: 575.98px) {
+
+  #anotadores .list-group-item {
+    gap: 10px;
+    padding: 10px 6px;
+  }
+
+  #anotadores .list-group-item > div:first-child {
+    gap: 10px !important;
+  }
+
+  #anotadores .list-group-item img {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px;
+  }
+
+  #anotadores .list-group-item > div:first-child > .badge {
+    min-width: 26px;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+  }
+
+  #anotadores .list-group-item strong {
+    font-size: 0.9rem;
+  }
+
+  #anotadores .list-group-item .text-muted {
+    font-size: 0.7rem;
+  }
+
+  #anotadores .list-group-item > span:last-child {
+    font-size: 1.05rem !important;
+  }
+}
+
+/* ==========================================
+   CALENDARIO — DISEÑO MODERNO
+   ========================================== */
+
+#calendario .table td:first-child {
+  color: #2f7a4f;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+#calendario img {
+  object-fit: cover;
+  background-color: #f5f7fa;
+  border: 1px solid #e5e7eb;
+}
+#calendario .table {
+  margin-bottom: 0;
+  border-color: #e5e7eb;
+}
+#calendario .table td {
+  padding: 0.85rem 0.75rem;
+  vertical-align: middle;
+}
+
+
+
+/* Encabezado */
+#calendario .table thead th {
+  background: #212529 !important;
+  color: #fff;
+  border: none !important;
+  padding: 0.75rem;
+}
+
+#calendario .table thead th:first-child {
+  width: 90px;
+}
+
+/* FILA DEL PARTIDO */
+#calendario .table tbody tr:not(.separador-dia) {
+  background: #fff;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+/* Efecto hover */
+#calendario .table tbody tr:not(.separador-dia):hover {
+  background: #f8faf9;
+  transform: translateY(-1px);
+}
+
+/* Celdas */
+#calendario .table tbody tr:not(.separador-dia) td {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem 0.65rem;
+  vertical-align: middle;
+}
+
+/* Primera celda */
+#calendario .table tbody tr:not(.separador-dia) td:first-child {
+  border-left: 1px solid #e5e7eb;
+  border-radius: 10px 0 0 10px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* Última celda */
+#calendario .table tbody tr:not(.separador-dia) td:last-child {
+  border-right: 1px solid #e5e7eb;
+  border-radius: 0 10px 10px 0;
+}
+
+/* EQUIPOS */
+#calendario .table tbody tr:not(.separador-dia) td:nth-child(2),
+#calendario .table tbody tr:not(.separador-dia) td:nth-child(4) {
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+/* Logos */
+#calendario .table tbody tr:not(.separador-dia) img {
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #f5f7fa;
+  border: 1px solid #e5e7eb;
+}
+
+/* VS */
+#calendario .table tbody tr:not(.separador-dia) td:nth-child(3) .badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.35rem 0.5rem;
+  border-radius: 50px;
+}
+
+/* ==========================================
+   SEPARADOR DEL DÍA
+   ========================================== */
+
+#calendario .separador-dia th {
+  background: transparent;
+  color: #111827;
+  border: none;
+  border-left: 4px solid #2f7a4f;
+  padding: 1.1rem 0.75rem 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+/* ==========================================
+   JORNADA
+   ========================================== */
+
+#acordeonCalendario .accordion-button {
+  background: #212529;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1.1rem;
+}
+
+#acordeonCalendario .accordion-button:not(.collapsed) {
+  color: #72e0a0;
+  border-bottom: 3px solid #2f7a4f;
+}
+
+/* ==========================================
+   MÓVIL
+   ========================================== */
+
+@media (max-width: 575.98px) {
+
+  #calendario .table {
+    font-size: 0.78rem;
+    border-spacing: 0 4px;
+  }
+
+  #calendario .table thead th {
+    padding: 0.6rem 0.35rem;
+    font-size: 0.7rem;
+  }
+
+  #calendario .table thead th:first-child {
+    width: 58px;
+  }
+
+  #calendario .table tbody tr:not(.separador-dia) td {
+    padding: 0.6rem 0.25rem;
+  }
+
+  #calendario .table tbody tr:not(.separador-dia) img {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px;
+  }
+
+  #calendario .table tbody tr:not(.separador-dia) td:nth-child(2),
+  #calendario .table tbody tr:not(.separador-dia) td:nth-child(4) {
+    font-size: 0.72rem;
+  }
+
+  #calendario .table tbody tr:not(.separador-dia) td:nth-child(3) .badge {
+    font-size: 0.58rem;
+    padding: 0.3rem 0.4rem;
+  }
+
+  #calendario .separador-dia th {
+    padding: 0.9rem 0.5rem 0.45rem;
+    font-size: 0.72rem;
+  }
+
+  #calendario .table tbody tr:not(.separador-dia) td:first-child {
+    font-size: 0.78rem;
+  }
+}
+
+/* ==========================================
+   POSICIONES — DISEÑO MODERNO
+   ========================================== */
+
+#posiciones .table {
+  border-collapse: separate;
+  border-spacing: 0 6px;
+  border: none !important;
+  margin-bottom: 0;
+}
+
+/* ENCABEZADO */
+#posiciones .table thead th {
+  background: #212529 !important;
+  color: #fff;
+  border: none !important;
+  padding: 0.75rem 0.65rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+#posiciones .table thead th:nth-child(2) {
+  text-align: left;
+}
+
+/* FILAS */
+#posiciones .table tbody tr {
+  background: #fff;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+#posiciones .table tbody tr:hover {
+  background: #f8faf9;
+  transform: translateY(-1px);
+}
+
+/* CELDAS */
+#posiciones .table tbody td {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem 0.6rem;
+  vertical-align: middle;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+/* PRIMERA CELDA */
+#posiciones .table tbody td:first-child {
+  border-left: 1px solid #e5e7eb;
+  border-radius: 10px 0 0 10px;
+  width: 58px;
+}
+
+/* ÚLTIMA CELDA */
+#posiciones .table tbody td:last-child {
+  border-right: 1px solid #e5e7eb;
+  border-radius: 0 10px 10px 0;
+}
+
+/* LOGOS */
+#posiciones .table tbody img {
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #f5f7fa;
+  border: 1px solid #e5e7eb;
+}
+
+/* NOMBRE DEL EQUIPO */
+#posiciones .table tbody td:nth-child(2) {
+  min-width: 190px;
+  font-size: 0.9rem;
+  font-weight: 800 !important;
+}
+
+/* ESTADÍSTICAS */
+#posiciones .table tbody td:nth-child(3) {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+/* PARTIDOS JUGADOS */
+#posiciones .table tbody td:nth-child(4),
+#posiciones .table tbody td:nth-child(5),
+#posiciones .table tbody td:nth-child(6) {
+  color: #6c757d;
+  font-weight: 700;
+}
+
+/* PUNTOS A FAVOR / CONTRA */
+#posiciones .table tbody td:nth-child(7),
+#posiciones .table tbody td:nth-child(8) {
+  color: #495057;
+}
+
+/* DIFERENCIA */
+#posiciones .table tbody td:nth-child(9) {
+  font-weight: 800;
+  color: #2f7a4f;
+}
+
+/* AVG */
+#posiciones .table tbody td:nth-child(10) {
+  color: #6c757d;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+
+/* ==========================================
+   POSICIONES 1, 2 Y 3
+   ========================================== */
+
+#posiciones .table tbody tr:nth-child(1) .badge,
+#posiciones .table tbody tr:nth-child(2) .badge,
+#posiciones .table tbody tr:nth-child(3) .badge {
+  font-size: 0.8rem;
+  min-width: 34px;
+  padding: 0.45rem 0.5rem;
+}
+
+/* ==========================================
+   BADGES DE POSICIÓN
+   ========================================== */
+
+#posiciones .badge {
+  min-width: 32px;
+  padding: 0.42rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  border-radius: 50px;
+}
+
+
+/* ==========================================
+   FILA DEL PRIMER LUGAR
+   ========================================== */
+
+#posiciones .table tbody tr:first-child td {
+  border-top-color: #d6c36a;
+  border-bottom-color: #d6c36a;
+}
+
+#posiciones .table tbody tr:first-child {
+  background: #fffdf2;
+}
+
+
+/* ==========================================
+   DIFERENCIA NEGATIVA
+   ========================================== */
+
+
+#posiciones .table tbody tr:has(td:nth-child(9)) td:nth-child(9) {
+  font-weight: 800;
+}
+
+
+/* ==========================================
+   MÓVIL
+   ========================================== */
+
+@media (max-width: 767.98px) {
+
+  #posiciones .table {
+    font-size: 0.76rem;
+    border-spacing: 0 4px;
+  }
+
+  #posiciones .table thead th {
+    padding: 0.6rem 0.45rem;
+    font-size: 0.68rem;
+  }
+
+  #posiciones .table tbody td {
+    padding: 0.6rem 0.4rem;
+    font-size: 0.76rem;
+  }
+
+  #posiciones .table tbody img {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px;
+  }
+
+  #posiciones .table tbody td:nth-child(2) {
+    min-width: 155px;
+    font-size: 0.78rem;
+  }
+
+  #posiciones .table tbody td:nth-child(3) {
+    font-size: 0.9rem;
+  }
+
+  #posiciones .badge {
+    min-width: 28px;
+    padding: 0.35rem 0.4rem;
+    font-size: 0.65rem;
+  }
+
 }
