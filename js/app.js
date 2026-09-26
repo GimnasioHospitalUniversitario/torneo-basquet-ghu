@@ -66,3 +66,32 @@ window.addEventListener("scroll", () => {
 });
 
 document.addEventListener("DOMContentLoaded", filtrar);
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".badge").forEach(badge => {
+    const texto = badge.textContent.trim();
+
+    // Eliminar globalmente "- partido" cuando no tiene número
+    if (/^-\s*partido$/i.test(texto)) {
+      badge.remove();
+      return;
+    }
+
+    // Normalizar partidos y aplicar color
+    const match = texto.match(/^(\d+)\s*(?:-\s*)?partidos?$/i);
+
+    if (!match) return;
+
+    const cantidad = parseInt(match[1], 10);
+
+    badge.textContent = `${cantidad} ${cantidad === 1 ? "partido" : "partidos"}`;
+
+    badge.classList.remove("bg-danger", "bg-success");
+
+    if (cantidad >= 4) {
+      badge.classList.add("bg-success");
+    } else {
+      badge.classList.add("bg-danger");
+    }
+  });
+});
