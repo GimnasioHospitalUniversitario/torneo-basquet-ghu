@@ -16,6 +16,7 @@ function elegirRama(rama, boton) {
   primerBoton.classList.add("active");
   categoriaActual = primerBoton.dataset.categoria;
 
+  abrirJornadaPorDefecto(rama);
   filtrar();
 }
 
@@ -46,6 +47,37 @@ function filtrar() {
 
     separador.classList.toggle("d-none", !hayPartidoVisible);
   });
+
+  ocultarJornadasVacias("#acordeonResultados");
+  ocultarJornadasVacias("#acordeonCalendario");
+}
+
+function ocultarJornadasVacias(selectorAcordeon) {
+  document.querySelectorAll(`${selectorAcordeon} > .accordion-item`).forEach(jornada => {
+    const hayAlgoVisible = Array.from(jornada.querySelectorAll('[data-rama]'))
+      .some(el => !el.classList.contains('d-none'));
+    jornada.classList.toggle('d-none', !hayAlgoVisible);
+  });
+}
+
+function abrirJornadaPorDefecto(rama) {
+  const mapaResultados = { varonil: "jornada6", femenil: "jornada1" };
+  const mapaCalendario = { varonil: "calJornada6", femenil: "calJornada1" };
+
+  const idResultadoAbrir = mapaResultados[rama];
+  const idCalendarioAbrir = mapaCalendario[rama];
+
+  document.querySelectorAll('#acordeonResultados .accordion-collapse').forEach(panel => {
+    const instancia = bootstrap.Collapse.getOrCreateInstance(panel, { toggle: false });
+    if (panel.id === idResultadoAbrir) instancia.show();
+    else instancia.hide();
+  });
+
+  document.querySelectorAll('#acordeonCalendario .accordion-collapse').forEach(panel => {
+    const instancia = bootstrap.Collapse.getOrCreateInstance(panel, { toggle: false });
+    if (panel.id === idCalendarioAbrir) instancia.show();
+    else instancia.hide();
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -71,13 +103,11 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".badge").forEach(badge => {
     const texto = badge.textContent.trim();
 
-    // Eliminar globalmente "- partido" cuando no tiene número
     if (/^-\s*partido$/i.test(texto)) {
       badge.remove();
       return;
     }
 
-    // Normalizar partidos y aplicar color
     const match = texto.match(/^(\d+)\s*(?:-\s*)?partidos?$/i);
 
     if (!match) return;
