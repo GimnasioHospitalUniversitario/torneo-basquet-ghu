@@ -230,6 +230,10 @@ html {
   color: #a63d4a;
 }
 
+.marcador-pendiente .fs-1 {
+  color: #fff;
+}
+
 section>h2 {
   color: #111827;
   font-weight: 800;
