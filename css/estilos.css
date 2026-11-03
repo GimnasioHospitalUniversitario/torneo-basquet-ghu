@@ -983,6 +983,17 @@ section>h2 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
 }
 
+.partido-llave-semana {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-left: 4px solid #2f7a4f;
+  ;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+}
+
 .partido-llave-cab {
   background: #f1f5f9;
   font-size: .75rem;
@@ -1037,4 +1048,30 @@ section>h2 {
   border-left-color: #e8b923;
   border-width: 2px 2px 2px 4px;
   border-color: #e8b923;
+}
+
+.llave-femenil .llave-ronda {
+  color: #e86a33;
+  border-bottom-color: #e86a33;
+}
+
+.llave-femenil .partido-llave {
+  border-left-color: #e86a33;
+}
+
+.llave-femenil .partido-llave-final {
+  border-left-color: #e8b923;
+}
+
+.llave-semana .llave-ronda {
+  color: #2f7a4f;
+  border-bottom-color: #2f7a4f;
+}
+
+.llave-semana .partido-llave {
+  border-left-color: #2f7a4f;
+}
+
+.llave-semana .partido-llave-final {
+  border-left-color: #e8b923;
 }
