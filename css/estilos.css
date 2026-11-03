@@ -150,10 +150,12 @@ html {
   .fila-navbar-superior {
     flex-wrap: nowrap;
   }
+
   .navbar-brand {
     font-size: 1rem;
     white-space: normal;
   }
+
   .navbar-brand img {
     height: 28px;
   }
@@ -164,13 +166,17 @@ html {
     table-layout: fixed;
     font-size: 0.7rem;
   }
-  #calendario th, #calendario td {
+
+  #calendario th,
+  #calendario td {
     padding: 0.35rem 0.2rem;
   }
+
   #calendario img {
     width: 18px !important;
     height: 18px !important;
   }
+
   #calendario td .d-flex {
     flex-direction: column;
     gap: 2px !important;
@@ -178,6 +184,7 @@ html {
 }
 
 @media (max-width: 576px) {
+
   #posiciones th:nth-child(1),
   #posiciones td:nth-child(1) {
     position: sticky;
@@ -193,7 +200,7 @@ html {
     left: 50px;
     z-index: 2;
     background-color: #fff;
-    box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
   }
 
   #posiciones thead th:nth-child(1),
@@ -353,7 +360,7 @@ section>h2 {
 }
 
 /* Contenedor foto + información */
-#acordeonJugadores .list-group-item > div {
+#acordeonJugadores .list-group-item>div {
   display: flex;
   align-items: center;
   gap: 14px !important;
@@ -371,7 +378,7 @@ section>h2 {
 }
 
 /* Información jugador */
-#acordeonJugadores .list-group-item > div > span {
+#acordeonJugadores .list-group-item>div>span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -382,7 +389,7 @@ section>h2 {
 }
 
 /* Número */
-#acordeonJugadores .list-group-item > div > span strong {
+#acordeonJugadores .list-group-item>div>span strong {
   display: block;
   color: #6c757d;
   font-size: 0.78rem;
@@ -391,7 +398,7 @@ section>h2 {
 }
 
 /* Badge partidos */
-#acordeonJugadores .list-group-item > .badge {
+#acordeonJugadores .list-group-item>.badge {
   flex-shrink: 0;
   white-space: nowrap;
   font-size: 0.78rem;
@@ -429,19 +436,19 @@ section>h2 {
     min-width: 52px;
   }
 
-  #acordeonJugadores .list-group-item > div {
+  #acordeonJugadores .list-group-item>div {
     gap: 11px !important;
   }
 
-  #acordeonJugadores .list-group-item > div > span {
+  #acordeonJugadores .list-group-item>div>span {
     font-size: 0.9rem;
   }
 
-  #acordeonJugadores .list-group-item > div > span strong {
+  #acordeonJugadores .list-group-item>div>span strong {
     font-size: 0.72rem;
   }
 
-  #acordeonJugadores .list-group-item > .badge {
+  #acordeonJugadores .list-group-item>.badge {
     font-size: 0.7rem;
   }
 
@@ -464,7 +471,7 @@ section>h2 {
 }
 
 /* CONTENIDO IZQUIERDO */
-#anotadores .list-group-item > div:first-child {
+#anotadores .list-group-item>div:first-child {
   display: flex;
   align-items: center;
   gap: 14px !important;
@@ -472,7 +479,7 @@ section>h2 {
 }
 
 /* POSICIÓN */
-#anotadores .list-group-item > div:first-child > .badge {
+#anotadores .list-group-item>div:first-child>.badge {
   min-width: 30px;
   text-align: center;
   font-size: 0.78rem;
@@ -491,7 +498,7 @@ section>h2 {
 }
 
 /* INFORMACIÓN DEL JUGADOR */
-#anotadores .list-group-item > div:first-child > div {
+#anotadores .list-group-item>div:first-child>div {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -513,7 +520,7 @@ section>h2 {
 }
 
 /* PUNTOS */
-#anotadores .list-group-item > span:last-child {
+#anotadores .list-group-item>span:last-child {
   flex-shrink: 0;
   white-space: nowrap;
   font-size: 1.25rem !important;
@@ -531,7 +538,7 @@ section>h2 {
     padding: 10px 6px;
   }
 
-  #anotadores .list-group-item > div:first-child {
+  #anotadores .list-group-item>div:first-child {
     gap: 10px !important;
   }
 
@@ -541,7 +548,7 @@ section>h2 {
     min-width: 42px;
   }
 
-  #anotadores .list-group-item > div:first-child > .badge {
+  #anotadores .list-group-item>div:first-child>.badge {
     min-width: 26px;
     font-size: 0.7rem;
     padding: 0.4rem;
@@ -555,7 +562,7 @@ section>h2 {
     font-size: 0.7rem;
   }
 
-  #anotadores .list-group-item > span:last-child {
+  #anotadores .list-group-item>span:last-child {
     font-size: 1.05rem !important;
   }
 }
@@ -575,10 +582,12 @@ section>h2 {
   background-color: #f5f7fa;
   border: 1px solid #e5e7eb;
 }
+
 #calendario .table {
   margin-bottom: 0;
   border-color: #e5e7eb;
 }
+
 #calendario .table td {
   padding: 0.85rem 0.75rem;
   vertical-align: middle;
@@ -950,4 +959,82 @@ section>h2 {
     font-size: 0.65rem;
   }
 
+}
+
+/* ===== PLAYOFFS ===== */
+.llave-ronda {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #2f6fa8;
+  border-bottom: 2px solid #2f6fa8;
+  padding-bottom: .4rem;
+  margin-bottom: 1rem;
+}
+
+.partido-llave {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-left: 4px solid #2f6fa8;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+}
+
+.partido-llave-cab {
+  background: #f1f5f9;
+  font-size: .75rem;
+  color: #6c757d;
+  padding: .35rem .75rem;
+}
+
+.equipo-llave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .55rem .75rem;
+}
+
+.equipo-llave+.equipo-llave {
+  border-top: 1px solid #eef0f2;
+}
+
+.equipo-llave-nombre {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+}
+
+.equipo-llave-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.equipo-llave-puntos {
+  font-weight: 700;
+  font-size: 1.1rem;
+  min-width: 2rem;
+  text-align: right;
+}
+
+.equipo-llave.ganador .equipo-llave-puntos {
+  color: #2f7a4f;
+}
+
+.equipo-llave.perdedor .equipo-llave-puntos {
+  color: #b23b3b;
+}
+
+.equipo-llave.perdedor .equipo-llave-nombre {
+  opacity: .6;
+}
+
+.partido-llave-final {
+  border-left-color: #e8b923;
+  border-width: 2px 2px 2px 4px;
+  border-color: #e8b923;
 }
