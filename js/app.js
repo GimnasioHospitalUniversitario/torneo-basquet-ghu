@@ -100,6 +100,8 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", filtrar);
 
 document.addEventListener("DOMContentLoaded", () => {
+  const minimoPorRama = { varonil: 4, femenil: 3 };
+
   document.querySelectorAll(".badge").forEach(badge => {
     const texto = badge.textContent.trim();
 
@@ -109,19 +111,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const match = texto.match(/^(\d+)\s*(?:-\s*)?partidos?$/i);
-
     if (!match) return;
 
     const cantidad = parseInt(match[1], 10);
-
     badge.textContent = `${cantidad} ${cantidad === 1 ? "partido" : "partidos"}`;
 
-    badge.classList.remove("bg-danger", "bg-success");
+    // Detecta la rama del contenedor más cercano
+    const rama = badge.closest("[data-rama]")?.dataset.rama || "varonil";
+    const minimo = minimoPorRama[rama] ?? 4;
 
-    if (cantidad >= 4) {
-      badge.classList.add("bg-success");
-    } else {
-      badge.classList.add("bg-danger");
-    }
+    badge.classList.remove("bg-danger", "bg-success");
+    badge.classList.add(cantidad >= minimo ? "bg-success" : "bg-danger");
   });
 });
