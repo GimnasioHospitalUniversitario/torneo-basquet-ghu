@@ -1075,3 +1075,268 @@ section>h2 {
 .llave-semana .partido-llave-final {
   border-left-color: #e8b923;
 }
+
+/* ===== GRAN FINAL ===== */
+.llave-ronda-final {
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #f7d774, #d4a017, #f7d774);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 18px rgba(212, 160, 23, 0.35);
+}
+
+.partido-llave.partido-llave-final {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 1.25rem;
+  border-radius: 18px;
+  background: radial-gradient(circle at top, #2b2410 0%, #121212 60%, #0a0a0a 100%);
+  border: 2px solid #d4a017;
+  color: #fff;
+  animation: final-glow 2.5s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.partido-llave.partido-llave-final:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+@keyframes final-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(212, 160, 23, 0.35), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(247, 215, 116, 0.75), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Destello que cruza la tarjeta */
+.final-brillo {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+  transform: skewX(-20deg);
+  animation: final-destello 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes final-destello {
+  0% {
+    left: -75%;
+  }
+
+  60%,
+  100% {
+    left: 130%;
+  }
+}
+
+.final-encabezado {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.final-trofeo {
+  display: block;
+  font-size: 3rem;
+  line-height: 1;
+  filter: drop-shadow(0 0 10px rgba(247, 215, 116, 0.7));
+  animation: final-flota 3s ease-in-out infinite;
+}
+
+@keyframes final-flota {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.final-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.9rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #d4a017, #f7d774);
+  color: #1a1a1a;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.final-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.final-chip {
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(212, 160, 23, 0.4);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.partido-llave-final .equipo-llave.equipo-final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(212, 160, 23, 0.15), rgba(255, 255, 255, 0.03));
+  border-left: 4px solid #d4a017;
+}
+
+.partido-llave-final .equipo-llave-nombre {
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+}
+
+.partido-llave-final .equipo-llave-puntos {
+  min-width: 48px;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  background: #d4a017;
+  color: #121212;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.final-vs {
+  position: relative;
+  text-align: center;
+  margin: 0.6rem 0;
+}
+
+.final-vs::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d4a017, transparent);
+}
+
+.final-vs span {
+  position: relative;
+  padding: 0 0.75rem;
+  background: #161410;
+  color: #f7d774;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.final-pie {
+  margin-top: 1.1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(247, 215, 116, 0.8);
+}
+
+/* Al ganador le puedes agregar la clase "ganador" */
+.partido-llave-final .equipo-final.ganador {
+  background: linear-gradient(90deg, rgba(247, 215, 116, 0.35), rgba(212, 160, 23, 0.1));
+  border-left-color: #f7d774;
+}
+
+.partido-llave-final .equipo-final.ganador .equipo-llave-nombre::after {
+  content: " 👑";
+}
+
+/* ===== FINAL: ajustes para escritorio ===== */
+@media (min-width: 992px) {
+
+  /* Centra la tarjeta a la altura de las semifinales */
+  .col-final {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-final .partido-llave-final {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .partido-llave.partido-llave-final {
+    padding: 1rem 1rem 0.85rem;
+  }
+
+  /* Trofeo y badge en una sola línea */
+  .final-encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .final-trofeo {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .final-badge {
+    margin-top: 0;
+  }
+
+  /* Fecha y hora en un solo renglón */
+  .final-info {
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .final-chip {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.55rem;
+    white-space: nowrap;
+  }
+
+  /* Renglones de equipos más delgados (como las semis) */
+  .partido-llave-final .equipo-llave.equipo-final {
+    padding: 0.55rem 0.85rem;
+  }
+
+  .partido-llave-final .equipo-llave-nombre {
+    font-size: 0.95rem;
+  }
+
+  .partido-llave-final .equipo-llave-puntos {
+    min-width: 40px;
+    font-size: 1.1rem;
+    padding: 0.1rem 0.4rem;
+  }
+
+  .final-vs {
+    margin: 0.35rem 0;
+  }
+
+  .final-pie {
+    margin-top: 0.7rem;
+    font-size: 0.7rem;
+  }
+}
