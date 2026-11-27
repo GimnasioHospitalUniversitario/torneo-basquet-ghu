@@ -1340,3 +1340,218 @@ section>h2 {
     font-size: 0.7rem;
   }
 }
+
+/* ===== FINAL FEMENIL · Oro rosa ===== */
+.llave-ronda-final.final-femenil {
+  background: linear-gradient(90deg, #f6c6d0, #d4708a, #f6c6d0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 18px rgba(212, 112, 138, 0.35);
+}
+
+.partido-llave.partido-llave-final.final-femenil {
+  background: radial-gradient(circle at top, #2e1520 0%, #141012 60%, #0a0a0a 100%);
+  border-color: #d4708a;
+  animation-name: final-glow-femenil;
+}
+
+@keyframes final-glow-femenil {
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(212, 112, 138, 0.35), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(246, 198, 208, 0.75), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.final-femenil .final-trofeo {
+  filter: drop-shadow(0 0 10px rgba(246, 198, 208, 0.7));
+}
+
+.final-femenil .final-badge {
+  background: linear-gradient(90deg, #d4708a, #f6c6d0);
+}
+
+.final-femenil .final-chip {
+  border-color: rgba(212, 112, 138, 0.45);
+}
+
+.final-femenil .equipo-llave.equipo-final {
+  background: linear-gradient(90deg, rgba(212, 112, 138, 0.18), rgba(255, 255, 255, 0.03));
+  border-left-color: #d4708a;
+}
+
+.final-femenil .equipo-llave-puntos {
+  background: #d4708a;
+}
+
+.final-femenil .final-vs::before {
+  background: linear-gradient(90deg, transparent, #d4708a, transparent);
+}
+
+.final-femenil .final-vs span {
+  background: #1b1216;
+  color: #f6c6d0;
+}
+
+.final-femenil .final-pie {
+  color: rgba(246, 198, 208, 0.85);
+}
+
+.final-femenil .equipo-final.ganador {
+  background: linear-gradient(90deg, rgba(246, 198, 208, 0.35), rgba(212, 112, 138, 0.1));
+  border-left-color: #f6c6d0;
+}
+
+/* ===== Logos dentro de la final (sirve para las 3 finales) ===== */
+.partido-llave-final .equipo-llave-nombre {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.partido-llave-final .equipo-llave-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background: #fff;
+  flex-shrink: 0;
+}
+
+/* ===== FINAL ENTRE SEMANA · Azul eléctrico y plata ===== */
+.llave-ronda-final.final-semana {
+  background: linear-gradient(90deg, #cfe6ff, #3d9bff, #cfe6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 18px rgba(61, 155, 255, 0.35);
+}
+
+.partido-llave.partido-llave-final.final-semana {
+  background: radial-gradient(circle at top, #10233d 0%, #0d1320 60%, #080a10 100%);
+  border-color: #3d9bff;
+  animation-name: final-glow-semana;
+}
+
+@keyframes final-glow-semana {
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(61, 155, 255, 0.35), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(160, 205, 255, 0.75), 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.final-semana .final-trofeo {
+  filter: drop-shadow(0 0 10px rgba(160, 205, 255, 0.7));
+}
+
+.final-semana .final-badge {
+  background: linear-gradient(90deg, #3d9bff, #cfe6ff);
+  color: #0a1424;
+}
+
+.final-semana .final-chip {
+  border-color: rgba(61, 155, 255, 0.45);
+}
+
+.final-semana .equipo-llave.equipo-final {
+  background: linear-gradient(90deg, rgba(61, 155, 255, 0.18), rgba(255, 255, 255, 0.03));
+  border-left-color: #3d9bff;
+}
+
+.final-semana .equipo-llave-puntos {
+  background: #3d9bff;
+  color: #0a1424;
+}
+
+.final-semana .final-vs::before {
+  background: linear-gradient(90deg, transparent, #3d9bff, transparent);
+}
+
+.final-semana .final-vs span {
+  background: #0f1a2c;
+  color: #cfe6ff;
+}
+
+.final-semana .final-pie {
+  color: rgba(207, 230, 255, 0.85);
+}
+
+.final-semana .equipo-final.ganador {
+  background: linear-gradient(90deg, rgba(207, 230, 255, 0.3), rgba(61, 155, 255, 0.1));
+  border-left-color: #cfe6ff;
+}
+
+/* ===== FINAL ENTRE SEMANA · Verde esmeralda ===== */
+.llave-ronda-final.final-verde {
+  background: linear-gradient(90deg, #b9f0cf, #1f9d57, #b9f0cf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 18px rgba(31, 157, 87, 0.35);
+}
+
+.partido-llave.partido-llave-final.final-verde {
+  background: radial-gradient(circle at top, #123a25 0%, #0c1a12 60%, #070c09 100%);
+  border-color: #1f9d57;
+  animation-name: final-glow-verde;
+}
+
+@keyframes final-glow-verde {
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(31, 157, 87, 0.35), 0 10px 30px rgba(0, 0, 0, 0.45);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(120, 230, 165, 0.7), 0 10px 30px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.final-verde .final-trofeo {
+  filter: drop-shadow(0 0 10px rgba(120, 230, 165, 0.7));
+}
+
+.final-verde .final-badge {
+  background: linear-gradient(90deg, #1f9d57, #b9f0cf);
+  color: #07140d;
+}
+
+.final-verde .final-chip {
+  border-color: rgba(31, 157, 87, 0.5);
+}
+
+.final-verde .equipo-llave.equipo-final {
+  background: linear-gradient(90deg, rgba(31, 157, 87, 0.2), rgba(255, 255, 255, 0.03));
+  border-left-color: #1f9d57;
+}
+
+.final-verde .equipo-llave-puntos {
+  background: #1f9d57;
+  color: #fff;
+}
+
+.final-verde .final-vs::before {
+  background: linear-gradient(90deg, transparent, #1f9d57, transparent);
+}
+
+.final-verde .final-vs span {
+  background: #0f2418;
+  color: #b9f0cf;
+}
+
+.final-verde .final-pie {
+  color: rgba(185, 240, 207, 0.85);
+}
+
+.final-verde .equipo-final.ganador {
+  background: linear-gradient(90deg, rgba(185, 240, 207, 0.3), rgba(31, 157, 87, 0.1));
+  border-left-color: #b9f0cf;
+}
